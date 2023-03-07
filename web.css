@@ -1,0 +1,75 @@
+body {
+    color: black;
+    font: Arial;
+    font-size: 1.5em;
+    width: 770px;
+}
+
+p {
+    padding-top: 0.5em;
+}
+
+#cabecera {
+    background-image: url("./images/cabecera.jpg");
+    color: azure;
+    text-align: left;
+    height: 100px;
+    width: 770px;
+    font-size: 30;
+    padding-top: 40px;
+    padding-left: 40px;
+}
+
+.menu {
+    padding: 0.3em;
+    margin-bottom:0.7em;
+    background-color: aliceblue;
+}
+.menu a:hover{
+    background-color: rosybrown;
+}
+
+#principal {
+    position: static;
+    float: left;
+    width: 350px;
+}
+
+#secundario {
+    display:inline-block;
+    width: 250px; 
+}
+
+#enlaces {
+    display:inline-block;
+    float: right;
+    width: 130px;
+}
+
+#pie {
+    position: absolute;
+    width: 770px;
+    text-align: center;
+    border-width: 3px;
+    border-color: blueviolet;
+    border-style: dashed;
+}
+
+body a:link{
+    color: blue;
+}
+
+body a:hover{
+    color: red;
+}
+
+body a:visited{
+    color: darkblue;
+}
+
+table a:link {
+    color: green;
+}
+table a:visited {
+    color: green;
+}
